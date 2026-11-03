@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+.katex {
+  font-size: 1.05em !important;
+}
+
+.katex-display {
+  margin: 0.75em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0;
+}
+
+/* Custom printable styles for exporting or printing exams */
+@page {
+  size: A4 portrait;
+  margin: 1.5cm 2.0cm 1.5cm 2.5cm; /* Top: 1.5cm, Right: 2.0cm, Bottom: 1.5cm, Left: 2.5cm */
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 13pt !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .exam-page {
+    page-break-after: always;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 13pt !important;
+  }
+}

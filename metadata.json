@@ -1,0 +1,6 @@
+{
+  "name": "EduExam AI - Khảo Thí & Biên Soạn Đề Thi Tương Đương",
+  "description": "Hệ thống AI chuyên gia khảo thí, OCR đề thi mẫu, phân tích ma trận kiến thức và sinh đề thi tương đương (đề phát triển) kèm công thức LaTeX, hình vẽ SVG và hướng dẫn chấm chi tiết.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

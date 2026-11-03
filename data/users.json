@@ -1,0 +1,24 @@
+[
+  {
+    "id": "admin_daotam28",
+    "username": "daotam28",
+    "passwordHash": "b9f2764b5e883a107a5cb4c6ad52ea19004abffa1d8c4debca9c675032ea692d",
+    "role": "admin",
+    "createdAt": "2026-10-22T03:57:10.936Z",
+    "expiryDate": null,
+    "isActive": true,
+    "displayName": "Quản trị viên Hệ thống (daotam28)",
+    "note": "Tài khoản Quản trị viên mặc định"
+  },
+  {
+    "id": "user_mvj0ff2jtl99",
+    "username": "thaynam",
+    "passwordHash": "d85fb61a933e0b8a45f88c89888502573a3d318657a576ef5529bf948b98882c",
+    "role": "user",
+    "createdAt": "2026-10-22T03:57:19.243Z",
+    "expiryDate": "2026-11-30",
+    "isActive": true,
+    "displayName": "Thầy Nam Toán 12",
+    "note": ""
+  }
+]
